@@ -1,0 +1,34 @@
+body{
+    background: linear-gradient(rgb(241, 241, 157),rgb(230, 134, 134));
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#central{
+    background: rgb(255, 255, 255);
+    width: 50%;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+#central button{
+    width: 200px;
+    padding: 8px;
+    background: yellow;
+    color: black;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+}
+
+#central button:hover{
+    background: silver;
+    color: darkblue;
+}
